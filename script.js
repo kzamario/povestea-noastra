@@ -1270,7 +1270,7 @@ const moments = [
 
     {
         image:
-            "images/poza1.jpg",
+            "poza1.jpg",
 
         title:
             "Prima noastră amintire",
@@ -1281,7 +1281,7 @@ const moments = [
 
     {
         image:
-            "images/poza2.jpg",
+            "poza2.jpg",
 
         title:
             "O zi de neuitat",
@@ -1292,7 +1292,7 @@ const moments = [
 
     {
         image:
-            "images/poza3.jpg",
+            "poza3.jpg",
 
         title:
             "Primul nostru sărut",
@@ -1303,7 +1303,7 @@ const moments = [
 
     {
         image:
-            "images/poza4.jpg",
+            "poza4.jpg",
 
         title:
             "Un moment doar al nostru",
@@ -1314,7 +1314,7 @@ const moments = [
 
     {
         image:
-            "images/poza5.jpg",
+            "poza5.jpg",
 
         title:
             "Noi doi",
