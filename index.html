@@ -1,0 +1,1907 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Povestea de dragoste dintre Barbatul tau și Andreea.">
+
+    <title>Focul Inimii ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+
+
+<!-- =========================================
+     SECRET INTRO SCREEN
+========================================== -->
+
+<div
+    id="intro-screen"
+    class="intro-screen">
+
+    <div class="intro-particles">
+
+        <span>❤️</span>
+        <span>♡</span>
+        <span>❤️</span>
+        <span>✨</span>
+        <span>♡</span>
+        <span>❤️</span>
+        <span>✨</span>
+        <span>♡</span>
+
+    </div>
+
+
+    <div class="intro-content">
+
+        <p class="intro-small">
+            Pentru o fată specială...
+        </p>
+
+
+        <h1>
+            Andreea
+        </h1>
+
+
+        <div class="intro-heart">
+            ❤️
+        </div>
+
+
+        <p class="intro-message">
+
+            Am pregătit ceva pentru tine.
+
+            <br>
+
+            O poveste despre noi.
+
+        </p>
+
+
+        <p class="intro-date">
+            03.11.2024
+        </p>
+
+
+        <button
+            id="open-gift"
+            class="open-gift-button"
+            onclick="openGift()">
+
+            Deschide cadoul ❤️
+
+        </button>
+
+
+        <p class="intro-signature">
+
+            — Bărbatul tău
+
+        </p>
+
+    </div>
+
+</div>
+
+
+    <!-- =========================================
+         LOADING SCREEN
+    ========================================== -->
+
+    <div id="loading-screen">
+
+        <div class="loading-content">
+
+            <div class="loading-heart">
+                ❤️
+            </div>
+
+            <h1>
+                Pentru Andreea
+            </h1>
+
+            <p>
+                O poveste scrisă în doi...
+            </p>
+
+            <button id="start-button">
+                Începe povestea ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         NAVIGATION
+    ========================================== -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Focul Inimii ❤️
+        </div>
+
+        <div class="nav-links">
+
+            <a href="#home">
+                Acasă
+            </a>
+
+            <a href="#story">
+                Povestea noastră
+            </a>
+
+            <a href="#gallery">
+                Amintiri
+            </a>
+
+            <a href="#love">
+                Pentru tine
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
+    <section id="home"
+             class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="floating-hearts">
+
+            <span>❤️</span>
+            <span>♡</span>
+            <span>❤️</span>
+            <span>♡</span>
+            <span>❤️</span>
+            <span>♡</span>
+
+        </div>
+
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                03.11.2024
+            </p>
+
+            <h1>
+                Povestea Noastră
+            </h1>
+
+            <h2>
+                Andreea ❤️
+            </h2>
+
+            <p class="hero-text">
+
+                Poate că povestea noastră a început
+                într-un loc obișnuit...
+
+                <br>
+
+                Dar pentru mine,
+                acolo a început totul.
+
+            </p>
+
+            <button class="main-button"
+                    onclick="scrollToSection('timer')">
+
+                Descoperă povestea noastră
+
+                <span>
+                    ↓
+                </span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         RELATIONSHIP TIMER
+    ========================================== -->
+
+    <section id="timer"
+             class="timer-section">
+
+        <div class="section-container">
+
+            <p class="section-label">
+                Din 3 noiembrie 2024
+            </p>
+
+            <h2 class="section-title">
+                De când a început povestea noastră
+            </h2>
+
+            <p class="section-description">
+
+                Fiecare secundă alături de tine
+                a devenit o amintire.
+
+            </p>
+
+
+            <div class="timer-container">
+
+                <div class="time-box">
+
+                    <span id="years">
+                        0
+                    </span>
+
+                    <small>
+                        Ani
+                    </small>
+
+                </div>
+
+
+                <div class="time-box">
+
+                    <span id="months">
+                        0
+                    </span>
+
+                    <small>
+                        Luni
+                    </small>
+
+                </div>
+
+
+                <div class="time-box">
+
+                    <span id="days">
+                        0
+                    </span>
+
+                    <small>
+                        Zile
+                    </small>
+
+                </div>
+
+
+                <div class="time-box">
+
+                    <span id="hours">
+                        0
+                    </span>
+
+                    <small>
+                        Ore
+                    </small>
+
+                </div>
+
+
+                <div class="time-box">
+
+                    <span id="minutes">
+                        0
+                    </span>
+
+                    <small>
+                        Minute
+                    </small>
+
+                </div>
+
+
+                <div class="time-box">
+
+                    <span id="seconds">
+                        0
+                    </span>
+
+                    <small>
+                        Secunde
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <p class="timer-message">
+
+                De atât timp
+                <span>
+                    tu și eu
+                </span>
+                creăm amintiri.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+   <!-- =========================================
+     OUR STORY
+========================================== -->
+
+<section
+    id="story"
+    class="story-section">
+
+    <div class="section-container">
+
+        <p class="section-label">
+            Povestea noastră
+        </p>
+
+        <h2 class="section-title">
+            Cum a început totul
+        </h2>
+
+        <p class="section-description">
+
+            Unele povești încep cu un „A fost odată ca niciodată”.
+
+            <br>
+
+            A noastră a început într-un liceu,
+            cu o fată timidă, un băiat puțin golan
+            și o geacă oferită într-o zi friguroasă.
+
+        </p>
+
+
+        <div class="timeline">
+
+
+            <!-- MOMENT 1 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    ❤️
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Începutul
+                    </span>
+
+                    <h3>
+                        Ziua în care te-am observat
+                    </h3>
+
+                    <p>
+
+                        Tu erai bobocică.
+
+                        Eu eram în clasa a 11-a.
+
+                        <br><br>
+
+                        Ai venit în spatele liceului,
+                        la fumat, și cumva ai ajuns
+                        să râzi împreună cu prietenul tău.
+
+                        <br><br>
+
+                        Nu știam atunci că fata
+                        care râdea acolo avea să devină
+                        cea mai importantă persoană
+                        din viața mea.
+
+                        <br><br>
+
+                        Dar mi-ai captat atenția.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENT 2 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    🧥
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Primele semne
+                    </span>
+
+                    <h3>
+                        Geaca mea a ajuns la tine
+                    </h3>
+
+                    <p>
+
+                        Poate că pentru tine era doar
+                        o geacă sau un hanorac
+                        atunci când îți era frig.
+
+                        <br><br>
+
+                        Pentru mine era o scuză
+                        să am grijă de tine.
+
+                        <br><br>
+
+                        Cu fiecare zi care trecea,
+                        începeam să prind tot mai mult
+                        drag de tine.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENT 3 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    👀
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Misiunea mea
+                    </span>
+
+                    <h3>
+                        Încercam să te cunosc
+                    </h3>
+
+                    <p>
+
+                        Pentru că doar cu mine
+                        nu prea voiai să ieși,
+                        am găsit eu o soluție.
+
+                        <br><br>
+
+                        Am început să ies cu prietenul tău,
+                        încercând să aflu cât mai multe
+                        despre tine.
+
+                        <br><br>
+
+                        Și, bineînțeles,
+                        încercam să ajung și eu
+                        în preajma ta.
+
+                        <br><br>
+
+                        Nu mă lăsam eu așa ușor.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENT 4 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    📱
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Concertul Babasha
+                    </span>
+
+                    <h3>
+                        Primul meu mesaj
+                    </h3>
+
+                    <p>
+
+                        A venit concertul lui Babasha.
+
+                        <br><br>
+
+                        Toată lumea punea story-uri
+                        de la concert.
+
+                        Eu nu puteam.
+
+                        <br><br>
+
+                        Și atunci ți-am scris:
+
+                        <br><br>
+
+                        <em>
+                            „Toți pune-ți story de la concert,
+                            doar eu nu pot pentru că am camera spartă.”
+                        </em>
+
+                        <br><br>
+
+                        După ceva timp am observat
+                        că nu văzuseși mesajul.
+
+                        Așa că l-am șters.
+
+                        <br><br>
+
+                        Doar că, mai târziu,
+                        aveam să aflu că tu îl văzuseși
+                        și chiar voiai să-mi răspunzi.
+
+                        <br><br>
+
+                        Și uite așa,
+                        dintr-un mesaj șters,
+                        a început povestea noastră.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENT 5 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    💬
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Începutul nostru
+                    </span>
+
+                    <h3>
+                        Ore întregi de conversații
+                    </h3>
+
+                    <p>
+
+                        Am început să vorbim.
+
+                        Și am vorbit.
+
+                        Și am vorbit.
+
+                        <br><br>
+
+                        Seară după seară,
+                        conversațiile noastre
+                        deveneau din ce în ce mai lungi.
+
+                        <br><br>
+
+                        Până când am început
+                        să ne cunoaștem cu adevărat.
+
+                        <br><br>
+
+                        Și fără să ne dăm seama,
+                        deveneam din ce în ce
+                        mai importanți unul pentru celălalt.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENT 6 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    🥹
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Prima revedere
+                    </span>
+
+                    <h3>
+                        Ziua în care am vrut să te văd
+                    </h3>
+
+                    <p>
+
+                        A fost o perioadă în care
+                        nu ne-am văzut aproape o săptămână.
+
+                        <br><br>
+
+                        Și atunci am realizat
+                        cât de mult îmi lipseai.
+
+                        <br><br>
+
+                        Când ne-am revăzut,
+                        am început să planificăm
+                        o ieșire împreună.
+
+                        <br><br>
+
+                        O ieșire care avea să schimbe
+                        totul între noi.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENT 7 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    💋
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Momentul nostru
+                    </span>
+
+                    <h3>
+                        Primul nostru sărut
+                    </h3>
+
+                    <p>
+
+                        Eram într-un parc de copii.
+
+                        <br><br>
+
+                        Se lăsase liniștea.
+
+                        Și nu mai aveam subiecte
+                        despre care să vorbim.
+
+                        <br><br>
+
+                        Atunci mi-ai spus:
+
+                        <br><br>
+
+                        <em>
+                            „Nu-mi place liniștea.”
+                        </em>
+
+                        <br><br>
+
+                        Iar eu ți-am răspuns:
+
+                        <br><br>
+
+                        <em>
+                            „Uneori e plăcută liniștea.
+                            Vrei să vezi?”
+                        </em>
+
+                        <br><br>
+
+                        M-ai întrebat:
+
+                        <br><br>
+
+                        <em>
+                            „Cum?”
+                        </em>
+
+                        <br><br>
+
+                        Și atunci te-am luat
+                        și te-am sărutat.
+
+                        <br><br>
+
+                        Și cred că din momentul acela
+                        liniștea nu a mai fost niciodată
+                        la fel.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENT 8 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    🥀
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        Distanța
+                    </span>
+
+                    <h3>
+                        Dorul care ne-a încercat
+                    </h3>
+
+                    <p>
+
+                        Au venit vacanțele.
+
+                        <br><br>
+
+                        Eu plecam la ai mei
+                        și nu ne mai puteam vedea
+                        în fiecare zi.
+
+                        <br><br>
+
+                        Și atunci apărea dorul.
+
+                        <br><br>
+
+                        Uneori apărea și frica.
+
+                        Frica de distanță.
+
+                        Frica de a nu găsi fiecare
+                        pe altcineva.
+
+                        <br><br>
+
+                        Dar, în ciuda tuturor lucrurilor,
+                        povestea noastră a continuat.
+
+                        <br><br>
+
+                        Pentru că, uneori,
+                        distanța te face să realizezi
+                        cât de mult înseamnă
+                        un om pentru tine.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- MOMENT 9 -->
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot">
+                    ❤️
+                </div>
+
+                <div class="timeline-card">
+
+                    <span class="timeline-date">
+                        03.11.2024
+                    </span>
+
+                    <h3>
+                        Ziua în care am devenit „noi”
+                    </h3>
+
+                    <p>
+
+                        03 noiembrie 2024.
+
+                        <br><br>
+
+                        Data care pentru alții
+                        este doar o zi.
+
+                        <br><br>
+
+                        Pentru mine este ziua
+                        în care a început
+                        cea mai frumoasă poveste
+                        din viața mea.
+
+                        <br><br>
+
+                        Povestea noastră.
+
+                        <br><br>
+
+                        Și sper ca aceasta să fie
+                        doar prima pagină
+                        dintr-o carte foarte lungă.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     MUSIC PLAYER
+========================================== -->
+
+<section class="music-section">
+
+    <div class="music-card">
+
+        <div class="music-disc">
+            🎵
+        </div>
+
+        <div class="music-info">
+
+            <span>
+                Melodia noastră
+            </span>
+
+            <h3>
+                DANSEZ
+            </h3>
+
+            <p>
+                Amuly feat. Alexia
+            </p>
+
+        </div>
+
+        <button
+            id="music-button"
+            class="music-button">
+
+            ▶
+
+        </button>
+
+    </div>
+
+    <!--
+    Pune melodia ta în folderul music
+    și numește fișierul:
+
+    melodia-noastra.mp3
+    -->
+
+    <audio
+        id="background-music"
+        loop>
+
+        <source
+            src="music/melodia-noastra.mp3"
+            type="audio/mpeg">
+
+    </audio>
+
+</section>
+
+
+<!-- =========================================
+     MEMORY GALLERY
+========================================== -->
+
+<section
+    id="gallery"
+    class="gallery-section">
+
+    <div class="section-container">
+
+        <p class="section-label">
+            Noi doi
+        </p>
+
+        <h2 class="section-title">
+            Amintirile Noastre
+        </h2>
+
+        <p class="section-description">
+
+            Unele momente trec.
+
+            <br>
+
+            Dar amintirile rămân pentru totdeauna.
+
+        </p>
+
+
+        <div class="gallery-grid">
+
+
+            <!-- POZA 1 -->
+
+            <div
+                class="gallery-item"
+                onclick="openImage('images/poza1.jpg')">
+
+                <img
+                    src="images/poza1.jpg"
+                    alt="Amintirea noastră 1"
+                    loading="lazy">
+
+                <div class="gallery-overlay">
+                    ❤️
+                </div>
+
+            </div>
+
+
+            <!-- POZA 2 -->
+
+            <div
+                class="gallery-item"
+                onclick="openImage('images/poza2.jpg')">
+
+                <img
+                    src="images/poza2.jpg"
+                    alt="Amintirea noastră 2"
+                    loading="lazy">
+
+                <div class="gallery-overlay">
+                    ❤️
+                </div>
+
+            </div>
+
+
+            <!-- POZA 3 -->
+
+            <div
+                class="gallery-item"
+                onclick="openImage('images/poza3.jpg')">
+
+                <img
+                    src="images/poza3.jpg"
+                    alt="Amintirea noastră 3"
+                    loading="lazy">
+
+                <div class="gallery-overlay">
+                    ❤️
+                </div>
+
+            </div>
+
+
+            <!-- POZA 4 -->
+
+            <div
+                class="gallery-item"
+                onclick="openImage('images/poza4.jpg')">
+
+                <img
+                    src="images/poza4.jpg"
+                    alt="Amintirea noastră 4"
+                    loading="lazy">
+
+                <div class="gallery-overlay">
+                    ❤️
+                </div>
+
+            </div>
+
+
+            <!-- POZA 5 -->
+
+            <div
+                class="gallery-item"
+                onclick="openImage('images/poza5.jpg')">
+
+                <img
+                    src="images/poza5.jpg"
+                    alt="Amintirea noastră 5"
+                    loading="lazy">
+
+                <div class="gallery-overlay">
+                    ❤️
+                </div>
+
+            </div>
+
+
+            <!-- POZA 6 -->
+
+            <div
+                class="gallery-item"
+                onclick="openImage('images/poza6.jpg')">
+
+                <img
+                    src="images/poza6.jpg"
+                    alt="Amintirea noastră 6"
+                    loading="lazy">
+
+                <div class="gallery-overlay">
+                    ❤️
+                </div>
+
+            </div>
+
+
+            <!-- POZA 7 -->
+
+            <div
+                class="gallery-item"
+                onclick="openImage('images/poza7.jpg')">
+
+                <img
+                    src="images/poza7.jpg"
+                    alt="Amintirea noastră 7"
+                    loading="lazy">
+
+                <div class="gallery-overlay">
+                    ❤️
+                </div>
+
+            </div>
+
+
+            <!-- POZA 8 -->
+
+            <div
+                class="gallery-item"
+                onclick="openImage('images/poza8.jpg')">
+
+                <img
+                    src="images/poza8.jpg"
+                    alt="Amintirea noastră 8"
+                    loading="lazy">
+
+                <div class="gallery-overlay">
+                    ❤️
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     IMAGE LIGHTBOX
+========================================== -->
+
+<div
+    id="image-lightbox"
+    class="image-lightbox"
+    onclick="closeImage()">
+
+    <button
+        class="close-lightbox">
+
+        ×
+
+    </button>
+
+    <img
+        id="lightbox-image"
+        src=""
+        alt="Imagine mărită">
+
+</div>
+
+
+<!-- =========================================
+     LOVE LETTERS
+========================================== -->
+
+<section class="letters-section">
+
+    <div class="section-container">
+
+        <p class="section-label">
+            Pentru tine
+        </p>
+
+        <h2 class="section-title">
+            Scrisori pe care poate
+            nu ți le-am spus niciodată
+        </h2>
+
+
+        <div class="letters-grid">
+
+
+            <!-- SCRISOAREA 1 -->
+
+            <div
+                class="letter-card"
+                onclick="openLetter(1)">
+
+                <div class="envelope">
+                    💌
+                </div>
+
+                <h3>
+                    Pentru tine
+                </h3>
+
+                <p>
+                    Deschide-mă ❤️
+                </p>
+
+            </div>
+
+
+            <!-- SCRISOAREA 2 -->
+
+            <div
+                class="letter-card"
+                onclick="openLetter(2)">
+
+                <div class="envelope">
+                    💌
+                </div>
+
+                <h3>
+                    Despre noi
+                </h3>
+
+                <p>
+                    Deschide-mă ❤️
+                </p>
+
+            </div>
+
+
+            <!-- SCRISOAREA 3 -->
+
+            <div
+                class="letter-card"
+                onclick="openLetter(3)">
+
+                <div class="envelope">
+                    💌
+                </div>
+
+                <h3>
+                    Pentru viitorul nostru
+                </h3>
+
+                <p>
+                    Deschide-mă ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     LETTER MODAL
+========================================== -->
+
+<div
+    id="letter-modal"
+    class="letter-modal">
+
+    <div class="letter-content">
+
+        <button
+            class="close-letter"
+            onclick="closeLetter()">
+
+            ×
+
+        </button>
+
+        <div
+            id="letter-text">
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
+     100 REASONS
+========================================== -->
+
+<section class="reasons-section">
+
+    <div class="section-container">
+
+        <p class="section-label">
+            100 de motive
+        </p>
+
+        <h2 class="section-title">
+            De ce te iubesc
+        </h2>
+
+        <p class="section-description">
+
+            Aș putea să-ți spun 100 de motive.
+
+            <br>
+
+            Dar adevărul este că aș putea
+            găsi încă 100 după ele.
+
+        </p>
+
+
+        <div class="reason-card">
+
+            <span>
+                ❤️
+            </span>
+
+            <p id="reason-text">
+
+                Pentru că ești tu.
+
+            </p>
+
+        </div>
+
+
+        <button
+            class="reason-button"
+            onclick="showRandomReason()">
+
+            Arată-mi un alt motiv ❤️
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     OUR DREAMS
+========================================== -->
+
+<section class="dreams-section">
+
+    <div class="section-container">
+
+        <p class="section-label">
+            Viitorul nostru
+        </p>
+
+        <h2 class="section-title">
+            Visele Noastre
+        </h2>
+
+        <p class="section-description">
+
+            Nu știu exact unde ne va duce viața.
+
+            <br>
+
+            Dar știu cu cine vreau să o trăiesc.
+
+        </p>
+
+
+        <div class="dreams-grid">
+
+
+            <div class="dream-card">
+
+                <span>
+                    ✈️
+                </span>
+
+                <h3>
+                    Să călătorim
+                </h3>
+
+                <p>
+                    Să vedem împreună
+                    locuri pe care nu le-am
+                    văzut niciodată.
+                </p>
+
+            </div>
+
+
+            <div class="dream-card">
+
+                <span>
+                    🏡
+                </span>
+
+                <h3>
+                    Casa noastră
+                </h3>
+
+                <p>
+                    Un loc pe care să-l numim
+                    „acasă”.
+                </p>
+
+            </div>
+
+
+            <div class="dream-card">
+
+                <span>
+                    👶
+                </span>
+
+                <h3>
+                    Un ingeras
+                </h3>
+
+                <p>
+                    Să avem un suflet mic
+                    care să ne aștepte acasă.
+                </p>
+
+            </div>
+
+
+            <div class="dream-card">
+
+                <span>
+                    🌅
+                </span>
+
+                <h3>
+                    Apusuri
+                </h3>
+
+                <p>
+                    Să privim împreună
+                    cât mai multe apusuri.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+<!-- =========================================
+     FAVORITE MOMENTS
+========================================== -->
+
+<section class="moments-section">
+
+    <div class="section-container">
+
+        <p class="section-label">
+            Cele mai frumoase clipe
+        </p>
+
+        <h2 class="section-title">
+            Momentele Noastre Preferate
+        </h2>
+
+        <div class="moments-carousel">
+
+            <button
+                class="carousel-button prev"
+                onclick="previousMoment()">
+
+                ‹
+
+            </button>
+
+
+            <div class="moment-slide">
+
+                <img
+                    id="moment-image"
+                    src="images/poza1.jpg"
+                    alt="Momentul nostru">
+
+                <div class="moment-info">
+
+                    <h3 id="moment-title">
+                        Prima noastră amintire
+                    </h3>
+
+                    <p id="moment-description">
+
+                        Unele amintiri nu au nevoie
+                        de cuvinte pentru a rămâne
+                        pentru totdeauna.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <button
+                class="carousel-button next"
+                onclick="nextMoment()">
+
+                ›
+
+            </button>
+
+        </div>
+
+        <div
+            id="moment-dots"
+            class="moment-dots">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     LOVE QUOTES
+========================================== -->
+
+<section class="quotes-section">
+
+    <div class="quote-container">
+
+        <div class="quote-symbol">
+            “
+        </div>
+
+        <p
+            id="love-quote">
+
+            Unele persoane apar în viața noastră
+            și o schimbă pentru totdeauna.
+
+        </p>
+
+        <span>
+            — Pentru Viitoarea mea Nevasta ❤️
+        </span>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     MEMORY MAP
+========================================== -->
+
+<section class="map-section">
+
+    <div class="section-container">
+
+        <p class="section-label">
+            Locurile noastre
+        </p>
+
+        <h2 class="section-title">
+            Harta Amintirilor
+        </h2>
+
+        <p class="section-description">
+
+            Fiecare loc are o poveste.
+
+            <br>
+
+            Iar unele povești vor rămâne
+            mereu ale noastre.
+
+        </p>
+
+
+        <div class="memory-map">
+
+            <div
+                class="map-pin pin-1"
+                onclick="showMemory(1)">
+
+                ❤️
+
+            </div>
+
+            <div
+                class="map-pin pin-2"
+                onclick="showMemory(2)">
+
+                ❤️
+
+            </div>
+
+            <div
+                class="map-pin pin-3"
+                onclick="showMemory(3)">
+
+                ❤️
+
+            </div>
+
+            <div
+                class="map-pin pin-4"
+                onclick="showMemory(4)">
+
+                ❤️
+
+            </div>
+
+
+            <div
+                id="memory-popup"
+                class="memory-popup">
+
+                <button
+                    onclick="closeMemory()">
+
+                    ×
+
+                </button>
+
+                <h3 id="memory-title">
+                    Locul nostru
+                </h3>
+
+                <p id="memory-text">
+
+                    O amintire care va rămâne
+                    mereu în inima mea.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     OUR FUTURE
+========================================== -->
+
+<section class="future-section">
+
+    <div class="section-container">
+
+        <p class="section-label">
+            Ceea ce urmează
+        </p>
+
+        <h2 class="section-title">
+            Povestea Noastră Nu Se Termină Aici
+        </h2>
+
+        <p class="section-description">
+
+            Tot ce am trăit până acum
+            este doar începutul.
+
+        </p>
+
+
+        <div class="future-timeline">
+
+            <div class="future-item">
+
+                <span>
+                    01
+                </span>
+
+                <div>
+
+                    <h3>
+                        Să călătorim împreună
+                    </h3>
+
+                    <p>
+                        Să descoperim locuri noi
+                        și să ne întoarcem acasă
+                        cu sute de povești.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="future-item">
+
+                <span>
+                    02
+                </span>
+
+                <div>
+
+                    <h3>
+                        Casa noastră
+                    </h3>
+
+                    <p>
+                        Un loc mic sau mare,
+                        dar care să fie doar al nostru.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="future-item">
+
+                <span>
+                    03
+                </span>
+
+                <div>
+
+                    <h3>
+                        Să construim o viață
+                    </h3>
+
+                    <p>
+                        Cu zile bune, zile grele,
+                        râsete și amintiri.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="future-item">
+
+                <span>
+                    ∞
+                </span>
+
+                <div>
+
+                    <h3>
+                        Noi
+                    </h3>
+
+                    <p>
+                        Indiferent unde ne va duce
+                        viața, sper să fim mereu noi.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================
+     FINAL CHAPTER
+========================================== -->
+
+<section class="final-chapter">
+
+    <div class="final-content">
+
+        <p class="section-label">
+            Ultimul capitol...
+        </p>
+
+        <h2>
+            De fapt,
+            nu există ultimul capitol.
+        </h2>
+
+        <p>
+
+            Pentru că povestea noastră
+            încă se scrie.
+
+        </p>
+
+        <div class="final-heart">
+            ❤️
+        </div>
+
+        <h3>
+            Sufletelul meu
+        </h3>
+
+        <p class="final-message">
+
+            Dacă aș putea să mă întorc
+            în ziua în care te-am cunoscut,
+            aș face totul din nou.
+
+            <br><br>
+
+            Aș râde din nou cu tine.
+
+            Aș încerca din nou să te cunosc.
+
+            Ți-aș da din nou geaca
+            atunci când ți-ar fi frig.
+
+            <br><br>
+
+            Și te-aș săruta din nou
+            în acel parc.
+
+            <br><br>
+
+            Pentru că dintre toate
+            lucrurile care mi s-au întâmplat,
+            tu ești cel pe care
+            nu vreau să-l pierd niciodată.
+
+        </p>
+
+        <div class="signature">
+
+            Barbatul tau ❤️
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+    <!-- =========================================
+         LOVE MESSAGE
+    ========================================== -->
+
+    <section id="love"
+             class="love-section">
+
+        <div class="love-content">
+
+            <div class="big-heart">
+                ❤️
+            </div>
+
+            <p class="section-label">
+                Pentru tine, Andreea
+            </p>
+
+            <h2>
+                Focul Inimii Mele
+            </h2>
+
+            <p class="love-text">
+
+                Tu ești relația care mă ține în viață.
+
+                <br><br>
+
+                Tu ești focul inimii mele.
+
+                <br><br>
+
+                Și indiferent câte zile vor trece,
+                câte vacanțe ne vor despărți
+                sau câte obstacole vom întâlni...
+
+            </p>
+
+            <h3>
+                Eu tot pe tine te voi alege.
+            </h3>
+
+            <p class="forever">
+                Astăzi. Mâine. Și în fiecare viață.
+            </p>
+
+            <div class="signature">
+                Te iubesc, Andreea ❤️
+            </div>
+
+            <p class="author">
+                — Barbatul tau
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <p>
+            Creat cu dragoste pentru Andreea ❤️
+        </p>
+
+        <p>
+            03.11.2024 — Pentru totdeauna
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
